@@ -104,5 +104,42 @@
 }
 
 .speakers{
+    max-width: 1551px;
+    width:100% ;
+    margin: 0 auto 10px auto;
+    padding: 80px 55.5px 136px 55.5px;
+    text-align: center;
+}
+.speakers h2{
+   color: #000102FF;
+   font-weight: 700;
+   font-size: 56px;
+   width: 900px;
+   height: 65px;
+   line-height: 1.15;
+   margin:0 auto 56px auto; 
+   padding-left: 194px;
+   padding-right: 194px;
+
+}
+.speakers-grid{
     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 34px;
+    row-gap: 5px;
+    justify-content:center;
+} 
+.speaker-card{
+    width: 646px;
+    height: 460px;
+    text-align: left;
+    border:1px solid #e5e7ebFF;
+    background-color: #ffffffFF; 
+    border-radius: 12px;
+}
+.speaker-card img{
+    width: 642px;
+    height: 324px;
+    object-fit: cover;
+    display: block;
 }
