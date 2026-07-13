@@ -107,7 +107,7 @@
     max-width: 1551px;
     width:100% ;
     margin: 0 auto 10px auto;
-    padding: 80px 55.5px 136px 55.5px;
+    padding: 80px 55.5px 120px 55.5px;
     text-align: center;
 }
 .speakers h2{
@@ -175,7 +175,7 @@
     max-width: 1551;
     width: 100%;
     margin: 0 auto;
-    padding: 96px 60px 80px 60px;
+    padding: 70px 60px 120px 60px;
     text-align: center;
 }
 .pricing h2{
@@ -332,4 +332,37 @@
 .new{
     width: 175px;
     height: 70px;
+}
+.site-footer{
+    max-width: 1551px;
+    width: 100%;
+    margin: 0 auto ;
+    padding: 40px 55.5px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+
+
+    
+}
+.social a {
+    text-decoration: none;
+}
+.footer-divider{
+    border: none;
+    border-top: 1px dashed black;
+}
+.footer-copyright{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+    margin-top: 2px;
 }
