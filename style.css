@@ -366,3 +366,14 @@
     color: #888;
     margin-top: 2px;
 }
+@media (max-width:764px) {
+    width: auto;
+    max-width: 100%;
+}
+.speakers-grid, .pricing-grid{
+    flex-direction: column;
+    display: block;
+}
+.price-card.featured{
+    transform: none;
+}
