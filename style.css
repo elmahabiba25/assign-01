@@ -175,7 +175,7 @@
     max-width: 1551;
     width: 100%;
     margin: 0 auto;
-    padding: 80px 55.5px;
+    padding: 96px 60px 80px 60px;
     text-align: center;
 }
 .pricing h2{
@@ -299,4 +299,37 @@
     color: #ffffffFF;
     line-height: 1.5;
 
+}
+.countdown{
+    max-width: 1551px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 40px;
+    background-color:#b4a1a1;
+    border-radius: 16px;
+    text-align: center;
+}
+.countdown .clock{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.countdown h2{
+    color:white;
+    font-size: 28px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.countdown p{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 26px;
+}
+.new{
+    width: 175px;
+    height: 70px;
 }
